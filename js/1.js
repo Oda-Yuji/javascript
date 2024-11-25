@@ -359,6 +359,8 @@ function start14()
 
 function start15()
 {
+    prompt('Atenção: Esta calculadora apenas calcula sua idade até o dia 24 de nov. de 2024.')
+    
     let d = 24 - parseInt(prompt('Que dia você nasceu?'));
 
     let m = 11 - parseInt(prompt('Que mês você nasceu?'));
